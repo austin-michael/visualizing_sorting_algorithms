@@ -4,6 +4,6 @@ function genRandomArray(length, max) {
     });
 }
 
-let unsortedArray = genRandomArray(20, 100);
+let unsortedArray = genRandomArray(5, 100);
 
 let bubblesort = new BubbleSort(unsortedArray);
